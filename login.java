@@ -47,6 +47,8 @@ public class login {
 		}
 		
 		// Checking Login Page 
+
+		wait(3000);
 		
 		driver.findElement(By.xpath("//span[text()='Sign In']")).click();
 		String actualLoginText = "Login";
