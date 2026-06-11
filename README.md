@@ -30,20 +30,34 @@ The framework follows a structured approach to perform end-to-end testing of use
 ```
 automation-test-decathlon-site
 │
-├── src/test/java
-│   ├── login.java
-│   ├── searchTheProduct.java
-│   ├── addToCart.java
+├── src
+│   ├── main
+│   │   ├── java
+│   │   └── resources
+│   │
+│   └── test
+│       ├── java
+│       │   └── decathlon
+│       │       ├── login.java
+│       │       ├── searchTheProduct.java
+│       │       └── addToCart.java
+│       │
+│       └── resources
 │
-├── src/main/java
-│   ├── BaseClass.java
-│   ├── UtilityClass.java
+├── Driver
 │
-├── data.properties
+├── screenShot
+│   ├── img1.png
+│   └── img2.png
+│
+├── target
 │
 ├── test-output
 │
-└── README.md
+├── pom.xml
+│
+└── testng01.xml
+
 ```
 
 ## 🔧 Test Scenarios
