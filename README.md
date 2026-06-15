@@ -106,8 +106,8 @@ Right Click Project → Maven → Update Project
 
 ```properties
 url=https://www.decathlon.in
-username=your_email
-password=your_password
+username=deva.bharathi013@gmail.com
+mobailnumber=9384700826
 ```
 
 5. Run TestNG Suite or Individual Test Classes
